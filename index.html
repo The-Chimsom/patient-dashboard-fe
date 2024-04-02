@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sidebar With Bootstrap</title>
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="border-bottom">
+    <nav class="navbar navbar-light">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between w-100">
+          <div class="">Grace Of God Medical Centre</div>
+          <div class="">12th October 2022 12:35pm</div>
+          <div class="logged-profile">
+            <div class="profile-circle">
+              <i class="bi bi-person-circle"></i>
+            </div>
+            <div class="user">
+            <div class="name"> Oluwakorede Tunde</div>
+            <div class="role">Clerk(Medical Records)</div>
+            </div>
+            <i class="bi bi-chevron-down"></i>
+            <i class="bi bi-chat-square"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="wrapper">
+
+    <aside id="sidebar">
+      <div class="d-flex">
+        <button class="toggle-btn" type="menu">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+
+      <ul class="sidebar-nav">
+        <li class="sidebar-item">
+          <i class="bi bi-house-door"></i>
+        </li>
+        <li class="sidebar-item">
+          <i class="bi bi-search"></i>
+        </li>
+        <li class="sidebar-item">
+          <i class="bi bi-bell"></i>
+        </li>
+        <li class="sidebar-item">
+          <i class="bi bi-calendar4"></i>
+        </li>
+        <li class="sidebar-item">
+          <i class="bi bi-gear"></i>
+        </li>
+        <li class="sidebar-item">
+          <i class="bi bi-question-circle"></i>
+        </li>
+        <li class="sidebar-item">
+          <i class="bi bi-moon"></i>
+        </li>
+      </ul>
+      <div class="bi-person-circle"></div>
+  </div>
+  </aside>
+
+  <div class="tabular-wrapper">
+    <table class="table table-borderless">
+
+    </table>
+  </div>
+  <div class="border-bottom">
+    <div class="search-wrapper">
+      <div class="arrow">
+        <div class="arrow-left">
+          <i class="bi bi-arrow-left"></i>
+        </div>
+        <div class="arrow-right">
+          <i class="bi bi-arrow-right"></i>
+        </div>
+        <div class="clock">
+          <i class="bi bi-clock-history"></i>
+        </div>
+      </div>
+      <div class="search">
+
+        <div class="search-box">
+          <div class="search-icon">
+            <i class="bi bi-search"></i>
+          </div>
+          <div class="search-text">00dd5962</div>
+        </div>
+        <div class="sort-box">
+          <div class="sort">Sort By</div>
+          <div class="arrow-down">
+            <i class="bi bi-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+      <div class="filter">
+        <i class="bi bi-funnel"></i>
+        <div class="filter-text">Advanced Search</div>
+      </div>
+    </div>
+  </div>
+  <div class="table-wrapper">
+    <div class="res-wrapper">
+      <div class="search-res">
+        <div class="se">Search result for "00dd5962"</div>
+        <div class="lv">Search Query: Last Viewed
+        </div>
+      </div>
+      <div class="patient">
+        <button>Add Patient</button>
+      </div>
+    </div>
+    <table class="table table-borderless" id="tab">
+      <thead>
+        <tr>
+          <th>S/N</th>
+          <th>Patient ID<i class="bi bi-chevron-expand"></i></th>
+          <th>Names<i class="bi bi-chevron-expand"></i> </th>
+          <th>Gender<i class="bi bi-chevron-expand"></i></th>
+          <th>Telephone Number<i class="bi bi-chevron-expand"></i></th>
+          <th>Primary Category<i class="bi bi-chevron-expand"></i></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="">
+          <td>1</td>
+          <td>04699</td>
+          <td>Fidelis Anokwu John</td>
+          <td>Male</td>
+          <td>0912790354</td>
+          <td>Out of pocket</td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
